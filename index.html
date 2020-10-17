@@ -9,35 +9,28 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 
-
 body {
   padding: 25px;
   background-color: black;
   color: white;
   font-size: 25px;
 }
-
-
 .bgimg {
  min-height: 100%;
  background-position: center;
  background-size: cover;
 }
-
 </style>
-
-</head><body>
-
+</head>
+  <body>
 <div class="bgimg w3-display-container w3-animate-opacity">
  <div class="w3-display-topleft w3-padding-large w3-xlarge">
  </div>
  <div class="w3-display-middle">
-   <h1 align="center" class="w3-jumbo w3-animate-top">LOS FEDESKA</h1>
-
+   <h1 align="center" class="w3-jumbo w3-animate-top">Los Fedeska</h1>
    <div id="countdown">1 días, 21 horas, 41 minutos y 33 segundos</div>
 <script>
 var end = new Date('01/30/2021 9:30 AM');
-
    var _second = 1000;
    var _minute = _second * 60;
    var _hour = _minute * 60;
@@ -51,7 +44,6 @@ var end = new Date('01/30/2021 9:30 AM');
 
            clearInterval(timer);
            document.getElementById('countdown').innerHTML = 'EXPIRED!';
-
            return;
        }
        var days = Math.floor(distance / _day);
@@ -66,7 +58,6 @@ var end = new Date('01/30/2021 9:30 AM');
    }
 
    timer = setInterval(showRemaining, 1000);
-
 </script>
 </div>
 </body>
